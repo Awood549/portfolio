@@ -111,11 +111,20 @@ ul.icons li {
   #main > section.dark a:hover {
    border-bottom-color: rgba(255, 255, 255, 0);
   }
-
-
-    #main > section.one {
+    /*Cycles through the images with jQuery */
+    #main > section.img1 {
       background-color: #81918E;
       background-image: url("../../../public/images/laptop.jpg");
+    }
+
+    #main > section.img2 {
+      background-color: #81918E;
+      background-image: url("../../../public/images/prideflag.jpg");
+    }
+
+    #main > section.img3 {
+      background-color: #81918E;
+      background-image: url("../../../public/images/javascript.png");
     }
 
     #main > section.two {
