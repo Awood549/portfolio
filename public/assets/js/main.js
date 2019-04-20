@@ -124,9 +124,29 @@ import { runInNewContext } from "vm";
 
 })(jQuery);
 
-// $('#main').on(setInterval( function () {
-// 	fadeIn(2000)
-// 	$('#main').attr('img1','img2')
-// 	.fadeOut(1000)
-// 	.fadeIn()
-// }))
+$(document).ready(function(){
+
+  $('#pics .ext a').on('click',function(swap) {
+    swap.preventDefault();
+    let currentSlide = $('#pics li.displayed');
+    let nextSlide = $('#pics li.displayed').next();
+
+    currentSlide.removeClass('displayed').hide();
+    if(nextSlide.length ===0){
+      nextSlide = $('#pics li').first();
+    }
+    nextSlide.addClass('displayed').show();
+  });
+
+  $('#pics .prev a').on('click',function(swap) {
+    swap.preventDefault();
+    let currentSlide = $('#pics li.displayed');
+    let prevSlide = $('#pics li.displayed').next();
+
+    currentSlide.removeClass('displayed').hide();
+    if(prevSlide.length ===0){
+      prevSlide = $('#pics li').last();
+    }
+    prevSlide.addClass('displayed').show();
+  });
+});

@@ -112,20 +112,60 @@ ul.icons li {
    border-bottom-color: rgba(255, 255, 255, 0);
   }
     /*Cycles through the images with jQuery */
-    #main > section.img1 {
+
+    #pics{
+      position: relative;
+      width:300px;
+      height: 400px;
+    }
+
+    #pics ul{
+      padding:0;
+      margin: 0;
+      list-style:none;
+    }
+
+    #pics li{
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      position: absolute;
+      display:none;
+    }
+
+    #pics li.displayed{
+      display: inline-block;
+    }
+
+    #pics .prev, #pics .next{
+      /* background-color: gray; */
+      z-index: -200;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top:100px;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+
+    #pics .prev a, #pics .next a{
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: 5px;
+    }
+
+    #pics .prev{
+      left:5px;
+    }
+
+    #pics .next{
+      right:5px;
+    }
+    /* #main > section.img1 {
       background-color: #81918E;
       background-image: url("../../../public/images/laptop.jpg");
-    }
-
-    #main > section.img2 {
-      background-color: #81918E;
-      background-image: url("../../../public/images/prideflag.jpg");
-    }
-
-    #main > section.img3 {
-      background-color: #81918E;
-      background-image: url("../../../public/images/javascript.png");
-    }
+    } */
 
     #main > section.two {
       background-color: #f5fafa;
