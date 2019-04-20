@@ -74,7 +74,7 @@ max-width: 100%;
 width: 1400px;
 }
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 761px) and (max-width: 1880px) {
 
   .container {
     width: 1200px;
@@ -82,7 +82,7 @@ width: 1400px;
 
 }
 
-@media screen and (min-width: 961px) and (max-width: 1620px) {
+@media screen and (min-width: 761px) and (max-width: 1620px) {
 
   .container {
     width: 960px;
@@ -90,7 +90,7 @@ width: 1400px;
 
 }
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 761px) and (max-width: 1320px) {
 
   .container {
     width: 100%;
@@ -357,7 +357,7 @@ align-items: stretch;
       padding-top: 80px;
     }
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 761px) and (max-width: 1880px) {
 
   .row {
     display: flex;
@@ -602,7 +602,7 @@ align-items: stretch;
 
 }
 
-@media screen and (min-width: 961px) and (max-width: 1620px) {
+@media screen and (min-width: 761px) and (max-width: 1620px) {
 
   .row {
     display: flex;
@@ -847,7 +847,7 @@ align-items: stretch;
 
 }
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 761px) and (max-width: 1320px) {
 
   .row {
     display: flex;
@@ -1337,6 +1337,8 @@ align-items: stretch;
 
 }
 
+/*mobile  */
+
 @media screen and (max-width: 736px) {
 
   .row {
@@ -1755,7 +1757,7 @@ margin-left: 375px;
 
 /* Wide */
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 761px) and (max-width: 1880px) {
 
 
 /* Header */
@@ -1780,7 +1782,7 @@ margin-left: 375px;
 
 /* Normal */
 
-@media screen and (min-width: 961px) and (max-width: 1620px) {
+@media screen and (min-width: 761px) and (max-width: 1620px) {
 
 /* Main */
 
@@ -1796,7 +1798,7 @@ margin-left: 375px;
 
 /* Narrow */
 
-@media screen and (min-width: 961px) and (max-width: 1320px) {
+@media screen and (min-width: 761px) and (max-width: 1320px) {
 
 /* Basic */
 
@@ -1867,7 +1869,7 @@ margin-left: 375px;
 display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 760px) {
 /* basic */
   .container {
     padding: 0 2em 0 2em;

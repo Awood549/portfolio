@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color: #666;
   line-height: 1.5em;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -79,6 +80,7 @@ header {
 
   header > p {
     margin: 1em 0 0 0;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em rgb(0, 0, 2);
   }
 
 footer {
@@ -359,9 +361,9 @@ button,
 
 /* Narrower */
 
-/* #headerToggle {
+#headerToggle {
   display: none;
-} */
+}
 
 @media screen and (max-width: 960px) {
 
